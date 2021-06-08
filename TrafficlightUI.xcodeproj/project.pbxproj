@@ -7,19 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B04BCFF266F8A1A00A91257 /* ButtonColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B04BCFE266F8A1A00A91257 /* ButtonColor.swift */; };
 		8BA6539D2667B75C003105B1 /* TrafficlightUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA6539C2667B75C003105B1 /* TrafficlightUIApp.swift */; };
 		8BA6539F2667B75C003105B1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA6539E2667B75C003105B1 /* ContentView.swift */; };
 		8BA653A12667B765003105B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BA653A02667B765003105B1 /* Assets.xcassets */; };
 		8BA653A42667B765003105B1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BA653A32667B765003105B1 /* Preview Assets.xcassets */; };
+		8BA653AD2667B835003105B1 /* ColorCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA653AC2667B835003105B1 /* ColorCircle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8B04BCFE266F8A1A00A91257 /* ButtonColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonColor.swift; sourceTree = "<group>"; };
 		8BA653992667B75C003105B1 /* TrafficlightUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrafficlightUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BA6539C2667B75C003105B1 /* TrafficlightUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficlightUIApp.swift; sourceTree = "<group>"; };
 		8BA6539E2667B75C003105B1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8BA653A02667B765003105B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8BA653A32667B765003105B1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8BA653A52667B765003105B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BA653AC2667B835003105B1 /* ColorCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCircle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				8BA6539C2667B75C003105B1 /* TrafficlightUIApp.swift */,
 				8BA6539E2667B75C003105B1 /* ContentView.swift */,
+				8BA653AC2667B835003105B1 /* ColorCircle.swift */,
+				8B04BCFE266F8A1A00A91257 /* ButtonColor.swift */,
 				8BA653A02667B765003105B1 /* Assets.xcassets */,
 				8BA653A52667B765003105B1 /* Info.plist */,
 				8BA653A22667B765003105B1 /* Preview Content */,
@@ -140,6 +146,8 @@
 			files = (
 				8BA6539F2667B75C003105B1 /* ContentView.swift in Sources */,
 				8BA6539D2667B75C003105B1 /* TrafficlightUIApp.swift in Sources */,
+				8BA653AD2667B835003105B1 /* ColorCircle.swift in Sources */,
+				8B04BCFF266F8A1A00A91257 /* ButtonColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
