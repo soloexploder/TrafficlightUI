@@ -25,10 +25,8 @@ struct ButtonColor: View {
         .overlay(
             RoundedRectangle(cornerRadius: 20, style: .continuous)
                 .stroke(Color.white, lineWidth: 4))
-        
     }
 }
-
 
 struct ButtonColor_Previews: PreviewProvider {
     static var previews: some View {

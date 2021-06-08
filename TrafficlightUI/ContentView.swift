@@ -23,6 +23,7 @@ struct ContentView: View {
         }
     }
 }
+
 extension ContentView{
     var body: some View{
         
@@ -41,6 +42,7 @@ extension ContentView{
                     if buttonTitle == "START"{
                         buttonTitle = "NEXT"
                     }
+                    
                     changeLight()
                 }
             }
